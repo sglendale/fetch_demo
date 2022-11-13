@@ -16,20 +16,27 @@
             }
 
         // Pass parameters to fetch
-        fetch(resourceURL, options)
-        .then(async function (response, err){
-            if(response.ok)
-            {
-                return response.json();
-            }
-            else
-            {
-                return err;
-            }
-        }).then(function(data){
-            var tableData = document.getElementById('response_json');
-            tableData.innerHTML = "name: " + data.name + "; age: " + data.age;
-        });
+        try 
+        {
+            fetch(resourceURL, options)
+            .then(async function (response, err){
+                if(response.ok)
+                {
+                    return response.json();
+                }
+                else
+                {
+                    throw err;
+                }
+            }).then(function(data){
+                var tableData = document.getElementById('response_json');
+                tableData.innerHTML = "name: " + data.name + "; age: " + data.age;
+            });
+        }
+        catch(err)
+        {
+            console.log("The following error occured while trying to fetch: ", err);
+        }
     }
 
     // Get elemenets from index.html (for example, username input area and password input area)
