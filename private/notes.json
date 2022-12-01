@@ -1,0 +1,116 @@
+{
+	"notes": [
+		{
+			"id": "b7bb6013c95def698af3ba65e059de0d2bb507b63261eb8369e1dd810c4683b6",
+			"author": "1234567",
+			"assigned": "1234567",
+			"course": {
+				"id": "CEN5011-RVC-1228",
+				"name": "Adv. Software Engineering",
+				"registerDate": "2022-08-23T00:00:00",
+				"endDate": "2022-12-09T23:59:59",
+				"instructor": {
+					"id": "000001",
+					"firstName": "Charlyn",
+					"lastName": "Walker",
+					"registerDate": "2022-11-12T00:45:23",
+					"email": "cwalker@fiu.edu"
+				},
+				"status": "active"
+			},
+			"title": "This is my first Note",
+			"content": "This is my first Note content. \n I am glad that \bs Developers \be are working so hard",
+			"createDate": "2022-11-12T00:45:23",
+			"lastmodeifiedDate": "2022-11-13T00:46:11",
+			"deleteDate": null,
+			"submitDate": null,
+			"approveDate": null,
+			"status": "saved",
+			"url": "https://www.classroomnote.com/course/CEN5011-RVC-1228/note/b7bb6013c95def698af3ba65e059de0d2bb507b63261eb8369e1dd810c4683b6"
+		},
+		{
+			"id": "b7bb6013c95def698af3ba15e059de0d2bb507b83261eb8369e1dd810c4684b6",
+			"author": "1234567",
+			"assigned": "1234567",
+			"course": {
+				"id": "CEN5011-RVC-1228",
+				"name": "Adv. Software Engineering",
+				"registerDate": "2022-08-23T00:00:00",
+				"endDate": "2022-12-09T23:59:59",
+				"instructor": {
+					"id": "000001",
+					"firstName": "Charlyn",
+					"lastName": "Walker",
+					"registerDate": "2022-11-12T00:45:23",
+					"email": "cwalker@fiu.edu"
+				},
+				"status": "active"
+			},
+			"title": "This is my second Note",
+			"content": "This is my second Note content. \n This note is a  \bs submitted \be note",
+			"createDate": "2022-11-12T00:45:23",
+			"lastmodeifiedDate": "2022-11-13T00:46:11",
+			"submitDate": null,
+			"approveDate": null,
+			"deleteDate": null,
+			"status": "saved",
+			"url": "https://www.classroomnote.com/course/CEN5011-RVC-1228/note/b7bb6013c95def698af3ba15e059de0d2bb507b83261eb8369e1dd810c4684b6"
+		},
+		{
+			"id": "b7cd6013c95def698af3ba65e059de0d2bb507b63260qb8369e1dd810c4683b6",
+			"author": "1234567",
+			"assigned": "1234567",
+			"course": {
+				"id": "CEN5011-RVC-1228",
+				"name": "Adv. Software Engineering",
+				"registerDate": "2022-08-23T00:00:00",
+				"endDate": "2022-12-09T23:59:59",
+				"instructor": {
+					"id": "000001",
+					"firstName": "Charlyn",
+					"lastName": "Walker",
+					"registerDate": "2022-11-12T00:45:23",
+					"email": "cwalker@fiu.edu"
+				},
+				"status": "active"
+			},
+			"title": "This is my Third Note Note",
+			"content": "This is my third Note content. This note is going to be \bs deleted \be",
+			"createDate": "2022-11-09T00:40:21",
+			"lastmodeifiedDate": "2022-11-12T00:46:11",
+			"submitDate": null,
+			"approveDate": null,
+			"deleteDate": "2022-11-12T00:47:13",
+			"status": "deleted",
+			"url": "https://www.classroomnote.com/course/CEN5011-RVC-1228/note/b7cd6013c95def698af3ba65e059de0d2bb507b63260qb8369e1dd810c4683b6"
+		},
+		{
+			"id": "b7cc6013c95def698af3ba65e059de0d2bb507b63261eb8339e1dd810c468316",
+			"author": "1234567",
+			"assigned": "000001",
+			"course": {
+				"id": "CEN5011-RVC-1228",
+				"name": "Adv. Software Engineering",
+				"registerDate": "2022-08-23T00:00:00",
+				"endDate": "2022-12-09T23:59:59",
+				"instructor": {
+					"id": "000001",
+					"firstName": "Charlyn",
+					"lastName": "Walker",
+					"registerDate": "2022-11-12T00:45:23",
+					"email": "cwalker@fiu.edu"
+				},
+				"status": "active"
+			},
+			"title": "This is my Fourth Note",
+			"content": "This is my fourth Note content. \n I am going to  \bs submit \be this note",
+			"createDate": "2022-11-08T14:12:23",
+			"lastmodeifiedDate": "2022-11-11T19:40:13",
+			"deleteDate": null,
+			"submitDate": "2022-11-13T00:32:01",
+			"approveDate": null,
+			"status": "submitted",
+			"url": "https://www.classroomnote.com/course/CEN5011-RVC-1228/note/b7cc6013c95def698af3ba65e059de0d2bb507b63261eb8339e1dd810c468316"
+		}	
+    ]
+}

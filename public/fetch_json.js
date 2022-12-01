@@ -3,7 +3,7 @@
     function json_fetcher()
     {   
         // Contruct fetch parameters
-        const resourceURL = "http://localhost:8080/json";
+        const resourceURL = "http://localhost:56789/json";
         const options = 
             {
                 method: 'GET',
