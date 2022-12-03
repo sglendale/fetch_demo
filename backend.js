@@ -11,6 +11,8 @@ app.use(cors());
 
 app.options('/register', cors());
 
+app.options('/login', cors());
+
 app.get('/', (req, res) => {
   res.send('Hello World!')
 });
@@ -30,8 +32,12 @@ app.post('/new-note', (req, res) =>{
   /* For posting your new single first and responding to yourself with "ok" */
 });
 
-app.post('/register', cors(), (req, res) => {
-  console.log(req.body);
+app.post('/register', cors(), (req, res) => { 
+  res.send();
+});
+
+app.post('/login', cors(), (req, res) => {
+  res.send();
 });
 
 app.listen(port, () => {
