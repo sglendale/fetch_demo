@@ -1,0 +1,8 @@
+{
+    "id": 10001,
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "registerDate": "2022-12-03",
+    "accountType": 1,
+    "email": "happy123@gmail.com"
+}

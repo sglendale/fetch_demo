@@ -17,29 +17,27 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 });
 
-app.get('/json', (req, res) => {
-    var readStream = fs.readFileSync('./private/sample.json');
+app.post('/register', (req, res) => {
+    var readStream = fs.readFileSync('./private/succesful_registration.json');
+    res.status(200);
     res.send(readStream);
 });
 
-// Aquib, see the example pushed on the master branch for usage.
-
-app.get('/notes', (req, res) => {
-  /* Access the body of your request here, Aquib. */
-});
-
-app.post('/new-note', (req, res) =>{
-  /* For posting your new single first and responding to yourself with "ok" */
-});
-
-app.post('/register', cors(), (req, res) => { 
-  res.send();
-});
-
 app.post('/login', cors(), (req, res) => {
-  res.send();
+  var readStream = fs.readFileSync('./private/successful_login.json');
+  res.status(200);
+  res.send(readStream);
 });
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
+});
+
+app.use((req, res, next)=>{
+  next(createError(404));
+});
+
+app.use((err, req, res, next)=>{
+  res.status(err.status || 500);
+  res.send();
 });
