@@ -1,0 +1,72 @@
+{
+	"notes": [
+		{
+			"id": 70001,
+			"author": 1234567,
+			"assigned": 10001,
+			"course": 50001,
+			"title": "This is my first Note",
+			"content": "This is my first Note content. \n I am glad that \bs Developers \be are working so hard",
+			"createDate": "2022-11-12T00:45:23",
+			"lastmodifiedDate": "2022-11-13T00:46:11",
+			"deleteDate": null,
+			"submitDate": null,
+			"approveDate": null,
+			"status": "submitted",
+			"returned": true,
+			"feedback": "Receieved Comment from Instructor",
+			"url": "http://localhost:8080/course/50001/note/70001"
+		},
+		{
+			"id": 70002,
+			"author": 1234567,
+			"assigned": 10001,
+			"course": 50001,
+			"title": "This is my first Note",
+			"content": "This is my first Note content. \n I am glad that \bs Developers \be are working so hard",
+			"createDate": "2022-11-12T00:45:23",
+			"lastmodifiedDate": "2022-11-13T00:46:11",
+			"deleteDate": null,
+			"submitDate": null,
+			"approveDate": null,
+			"status": "submitted",
+			"returned": false,
+			"feedback": null,
+			"url": "http://localhost:8080/course/50001/note/70002"
+		},
+		{
+			"id": 70003,
+			"author": 1234567,
+			"assigned": 10001,
+			"course": 50001,
+			"title": "This is my first Note",
+			"content": "This is my first Note content. \n I am glad that \bs Developers \be are working so hard",
+			"createDate": "2022-11-12T00:45:23",
+			"lastmodifiedDate": "2022-11-13T00:46:11",
+			"deleteDate": null,
+			"submitDate": null,
+			"approveDate": null,
+			"status": "submitted",
+			"returned": false,
+			"feedback": null,
+			"url": "http://localhost:8080/course/50001/note/70003"
+		},
+		{
+			"id": 70004,
+			"author": 1234567,
+			"assigned": 10001,
+			"course": 50001,
+			"title": "This is my first Note",
+			"content": "This is my first Note content. \n I am glad that \bs Developers \be are working so hard",
+			"createDate": "2022-11-12T00:45:23",
+			"lastmodifiedDate": "2022-11-13T00:46:11",
+			"deleteDate": null,
+			"submitDate": null,
+			"approveDate": null,
+			"status": "submitted",
+			"returned": true,
+			"feedback": null,
+			"url": "http://localhost:8080/course/50001/note/70004"
+		}
+	]
+}

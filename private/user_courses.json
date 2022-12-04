@@ -1,0 +1,36 @@
+{	"courses": [
+        {
+            "id": 50001,
+            "code": "CEN5011-RVC-1228",
+            "name": "Adv. Software Engineering",
+            "registerDate": "2022-08-23T00:00:00",
+            "endDate": "2022-12-09T23:59:59",
+            "instructor": 
+            {
+                "id": 100001,
+                "firstName": "Charlyn",
+                "lastName": "Walker",
+                "password": "XXXX",
+                "email": "cwalker@fiu.edu",
+                "userType": "instructor"
+            },
+            "status": "active"
+        },
+        {
+            "id": 50002,
+            "code": "CEN5011-RVX-1228",
+            "name": "Adv. Software Engineering - RVX",
+            "registerDate": "2022-08-23T00:00:00",
+            "endDate": "2022-12-09T23:59:59",
+            "instructor": {
+                "id": 100008,
+                "firstName": "Giri",
+                "lastName": "N",
+                "password": "XXXX",
+                "email": "girin@fiu.edu",
+                "userType": "instructor"
+            },
+            "status": "active"
+        } 
+    ]
+}
