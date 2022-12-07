@@ -31,6 +31,23 @@
                 "userType": "instructor"
             },
             "status": "active"
+        },
+        {
+            "id": 99999,
+            "code": "Private Note",
+            "name": "",
+            "registerDate": "2022-08-23T00:00:00",
+            "endDate": "2022-12-09T23:59:59",
+            "instructor": 
+            {
+                "id": 99999,
+                "firstName": "",
+                "lastName": "",
+                "password": "",
+                "email": "",
+                "userType": ""
+            },
+            "status": "active"
         } 
     ]
 }

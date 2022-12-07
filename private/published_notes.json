@@ -1,0 +1,144 @@
+{
+	"notes": [
+		{
+			"id": 70001,
+			"author": {
+    				"id": 1234567,
+    				"accountType": 2,
+    				"firstName": "Tony",
+    				"lastName": "S.",
+    				"email": "tonys@avg.com",
+    				"enabled": true,
+    				"credentialExpired": false,
+    				"expired": false,
+    				"locked": false,
+    				"roles": [
+    				    {
+    				        "id": 2,
+    				        "code": "456",
+    				        "name": "ROLE_STUDENT"
+    				    }
+    				]
+		
+			},
+			"assigned": 10001,
+			"course": 50001,
+			"title": "Published Note 1",
+			"content": "This is my first Note content. \n I am glad that \bs Developers \be are working so hard",
+			"createDate": "2022-11-12T00:45:23",
+			"lastmodifiedDate": "2022-11-13T00:46:11",
+			"deleteDate": null,
+			"submitDate": null,
+			"approveDate": null,
+			"status": "published",
+			"returned":false,
+			"feedback": "This note got coment from instructor",
+			"url": "http://localhost:8080/course/50001/note/70001"
+		},
+		{
+			"id": 70002,
+			"author": {
+    				"id": 3242123,
+    				"accountType": 2,
+    				"firstName": "Natasha",
+    				"lastName": "R.",
+    				"email": "natashar@avg.com",
+    				"enabled": true,
+    				"credentialExpired": false,
+    				"expired": false,
+    				"locked": false,
+    				"roles": [
+    				    {
+    				        "id": 2,
+    				        "code": "456",
+    				        "name": "ROLE_STUDENT"
+    				    }
+    				]
+		
+			},
+			"assigned": 10001,
+			"course": 50001,
+			"title": "Published Note 2",
+			"content": "This is my first Note content. \n I am glad that \bs Developers \be are working so hard",
+			"createDate": "2022-11-12T00:45:23",
+			"lastmodifiedDate": "2022-11-13T00:46:11",
+			"deleteDate": null,
+			"submitDate": null,
+			"approveDate": null,
+			"status": "published",
+			"returned":false,
+			"feedback": "This note got coment from instructor",
+			"url": "http://localhost:8080/course/50001/note/70002"
+		},
+		{
+			"id": 70003,
+			"author": {
+    				"id": 3455321,
+    				"accountType": 2,
+    				"firstName": "Steve",
+    				"lastName": "R.",
+    				"email": "stever@avg.com",
+    				"enabled": true,
+    				"credentialExpired": false,
+    				"expired": false,
+    				"locked": false,
+    				"roles": [
+    				    {
+    				        "id": 2,
+    				        "code": "456",
+    				        "name": "ROLE_STUDENT"
+    				    }
+    				]
+		
+			},
+			"assigned": 10001,
+			"course": 50001,
+			"title": "Published Note 3",
+			"content": "This is my first Note content. \n I am glad that \bs Developers \be are working so hard",
+			"createDate": "2022-11-12T00:45:23",
+			"lastmodifiedDate": "2022-11-13T00:46:11",
+			"deleteDate": null,
+			"submitDate": null,
+			"approveDate": null,
+			"status": "published",
+			"returned":false,
+			"feedback": null,
+			"url": "http://localhost:8080/course/50001/note/70003"
+		},
+		{
+			"id": 70004,
+			"author": {
+    				"id": 3455320,
+    				"accountType": 2,
+    				"firstName": "Bruce",
+    				"lastName": "B.",
+    				"email": "bruce@avg.com",
+    				"enabled": true,
+    				"credentialExpired": false,
+    				"expired": false,
+    				"locked": false,
+    				"roles": [
+    				    {
+    				        "id": 2,
+    				        "code": "456",
+    				        "name": "ROLE_STUDENT"
+    				    }
+    				]
+		
+			},
+			"assigned": 10001,
+			"course": 50001,
+			"title": "Published Note 4",
+			"content": "This is my first Note content. \n I am glad that \bs Developers \be are working so hard",
+			"createDate": "2022-11-12T00:45:23",
+			"lastmodifiedDate": "2022-11-13T00:46:11",
+			"deleteDate": null,
+			"submitDate": null,
+			"approveDate": null,
+			"status": "published",
+			"returned": false,
+			"feedback": null,
+			"url": "http://localhost:8080/course/50001/note/70004"
+		}
+	]
+}

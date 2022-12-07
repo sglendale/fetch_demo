@@ -1,0 +1,38 @@
+{
+	"notes": [
+		{
+			"id": 70001,
+			"author": 1234567,
+			"assigned": 10001,
+			"course": 99999,
+			"title": "Grocery List",
+			"content": "Milk, Orange Juice, Eggs, Water, Bread, Cheddar Cheese Slices, Salad Bag... ",
+			"createDate": "2022-11-12T00:45:23",
+			"lastmodifiedDate": "2022-11-13T00:46:11",
+			"deleteDate": null,
+			"submitDate": null,
+			"approveDate": null,
+			"status": "saved",
+			"returned": false,
+			"feedback": null,
+			"url": "http://localhost:8080/course/99999/note/70001"
+		},
+		{
+			"id": 70002,
+			"author": 1234567,
+			"assigned": 10001,
+			"course": 99999,
+			"title": "Reminders",
+			"content": "Don't forget to check the oven, the heater, the alarm, and unplug everthing!",
+			"createDate": "2022-11-12T00:45:23",
+			"lastmodifiedDate": "2022-11-13T00:46:11",
+			"deleteDate": null,
+			"submitDate": null,
+			"approveDate": null,
+			"status": "saved",
+			"returned": false,
+			"feedback": "",
+			"url": "http://localhost:8080/course/99999/note/70002"
+		}
+	]
+}

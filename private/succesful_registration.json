@@ -1,8 +1,18 @@
 {
     "id": 10001,
-    "firstName": "Jane",
-    "lastName": "Doe",
-    "registerDate": "2022-12-03",
-    "accountType": 1,
-    "email": "happy123@gmail.com"
+    "accountType": 2,
+    "firstName": "Sharon",
+    "lastName": "G ",
+    "email": "cher.g@g.com",
+    "enabled": true,
+    "credentialExpired": false,
+    "expired": false,
+    "locked": false,
+    "roles": [
+        {
+            "id": 2,
+            "code": "456",
+            "name": "ROLE_INSTRUCTOR"
+        }
+    ]
 }
